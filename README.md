@@ -1,3 +1,1 @@
-# Lab 2 - Starter
-
-https://trioud.github.io/Lab2_Starter/
+https://trioud.github.io/fa22-cse110-lab3/
