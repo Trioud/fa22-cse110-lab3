@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+html, body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: grey;
+    }
+}
+
+h4[title="red"] {
+    background-color: red;
+}
+
+h1 {
+    background-color: rgb(30, 45, 1);
+    color: tomato;
+    border: 1cm solid #ea00ff;
+    box-shadow: 10vw 5rem 5vh hsl(115, 100%, 50%);
+    font: small-caps bold 24px/2 cursive;
+    text-decoration: wavy;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+ul li {
+    color: green;
+}
+
+li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+li:active {
+    box-shadow: 1px 1px 1px black;
+}
+
+.sticky {
+    position: fixed;
+}
+
+.nav {
+    display: block;
+
+}
+
+.test {
+    display: block;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.test > h1 {
+    font-size: 30px;
+}
+
+#secret {
+    display: none;
+}
+
+.center {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    max-width: 100%;    
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    grid-auto-flow: column;
+}
+
+p ~ span {
+    color: red;
+}
+
+li:first-of-type + li {
+    color: green;
+}
